@@ -28,6 +28,7 @@ ul {
     list-style: none;
     text-transform: uppercase;
     display: flex;
+    justify-content: right;
 }
 
 .logo a,
@@ -59,3 +60,16 @@ ul a:hover {
     width: 200px;
     margin: 20px;
 }
+/* DOGS */
+/* CATS */
+.cats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cats img {
+    width: 500px;
+    margin: 20px;
+}
+/* CATS */
