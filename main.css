@@ -1,3 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-    background-color: goldenrod;
+  background-color: goldenrod;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: deeppink;
+}
+
+.logo {
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.logo a {
+    color: rgb(128, 240, 162);
+}
+
+ul {
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.logo a,
+ul a {
+    text-decoration: none;
+    letter-spacing: .45em;
+}
+
+ul a {
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+ul a:hover {
+    background-color: linen;
 }
