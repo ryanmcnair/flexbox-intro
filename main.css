@@ -7,6 +7,7 @@ body {
   background-color: goldenrod;
 }
 
+/* NAVIGATION */
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -27,6 +28,8 @@ ul {
     list-style: none;
     text-transform: uppercase;
     display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
 }
 
 .logo a,
@@ -36,7 +39,7 @@ ul a {
 }
 
 ul a {
-    display: block;
+    display: flex;
     padding: 1em;
     color: white;
 }
@@ -44,3 +47,30 @@ ul a {
 ul a:hover {
     background-color: linen;
 }
+/* NAVIGATION END*/
+
+/* DOGS */
+
+.dogs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.dogs img {
+    width: 200px;
+    margin: 20px;
+}
+/* DOGS */
+/* CATS */
+.cats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cats img {
+    width: 500px;
+    margin: 20px;
+}
+/* CATS */
