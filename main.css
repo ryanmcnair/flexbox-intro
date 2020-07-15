@@ -28,7 +28,8 @@ ul {
     list-style: none;
     text-transform: uppercase;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
+    align-items: stretch;
 }
 
 .logo a,
@@ -38,7 +39,7 @@ ul a {
 }
 
 ul a {
-    display: block;
+    display: flex;
     padding: 1em;
     color: white;
 }
